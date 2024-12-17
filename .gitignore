@@ -1,0 +1,4 @@
+# Terraform-specific gitignore
+.terraform/
+*.tfstate
+*.exe
