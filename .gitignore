@@ -1,4 +1,8 @@
-# Terraform-specific gitignore
+# Terraform files
 .terraform/
 *.tfstate
+*.tfstate.*
 *.exe
+
+# Ignore provider executables
+**/providers/**/*.exe
