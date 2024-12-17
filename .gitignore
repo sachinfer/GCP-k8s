@@ -1,8 +1,10 @@
-# Terraform files
+echo "# Terraform files
 .terraform/
 *.tfstate
 *.tfstate.*
 *.exe
 
-# Ignore provider executables
+# Provider executables
+**/*.exe
 **/providers/**/*.exe
+" > .gitignore
